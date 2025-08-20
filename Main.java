@@ -7,10 +7,7 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-
-
-
-
+    System.out.println("Hello")
 
     //ANSWER: 
 
@@ -33,7 +30,9 @@ class Main {
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
-
+    int x = 1;
+    double y = 2.4;
+    boolean z = false;
 
 
 
@@ -48,7 +47,7 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
-
+    
 
     //All multiples of 3 from 1 to 100
 
