@@ -7,7 +7,7 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-    System.out.println("Hello")
+    System.out.println("Hello");
 
     //ANSWER: 
 
@@ -22,17 +22,17 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integer): a whole number
+    //double: give us an decimal number
+    //boolean: value is true or false
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
-    int x = 1;
-    double y = 2.4;
-    boolean z = false;
+    int number = 1;
+    double exact_number = 2.4;
+    boolean is_correct = false;
 
 
 
@@ -47,13 +47,27 @@ class Main {
 
     //Odd integers from 1 to 100, inclusive of both
 
-    
+    System.out.println("Odd integers from 1-100:");
 
+    for (int i = 1; i <= 100; i++) {
+      if (i % 2 == 1) {
+        System.out.println(i);
+      }
+    }
     //All multiples of 3 from 1 to 100
 
+    System.out.println("Numbers divisable by 3 from 3-100");
 
+    for (int j = 3; j <= 100; j++) {
+      if (j % 3 == 0) {
+        System.out.println(j);
+      }
+    } 
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
+  
+  
+  
   }
 }
