@@ -67,7 +67,12 @@ class Main {
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
   
-  
+    for (int k = 1000; k >= 0; k--) {
+
+      if (k % 10 == 0) {
+        System.out.print(k + "-");
+      }
+    }
   
   }
 }
