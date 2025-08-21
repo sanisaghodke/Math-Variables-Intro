@@ -9,6 +9,8 @@ class Main {
 
     System.out.println("Hello");
 
+    System.out.print("Hi");
+
     //ANSWER: 
 
 
@@ -22,9 +24,9 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): a whole number
-    //double: give us an decimal number
-    //boolean: value is true or false
+    //int (integer): primitive data type used to represent whole numbers.
+    //double: a primitive data type used to store decimal numbers.
+    //boolean: data type that can store one of two possible values: true or false
 
     //For now we are just going to work with primitive
 
@@ -42,6 +44,13 @@ class Main {
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
+
+    System.out.println ("4 + 5 =" + (4+5));
+    System.out.println ("6 - 3 = " + (6-3));
+    System.out.println ("2 * 5 = " + 2*5);
+    System.out.println ("4 / 2 =" + 4/2);
+    System.out.println ("6 % 4 = " + 6%4);
+
 
     //Create codes that will print the following:
 
